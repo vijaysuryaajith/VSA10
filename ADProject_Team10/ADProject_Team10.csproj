@@ -177,6 +177,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="DeptHead\Kyler Trying.aspx" />
+    <Content Include="DeptHead\ModifyCollectionPoint.aspx" />
+    <Content Include="DeptStaff\ViewStationeryCatalogue.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -189,6 +191,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="StoreClerk\AnnualCatalogUpdate.aspx" />
+    <Content Include="StoreClerk\Department_CollectionPointList.aspx" />
+    <Content Include="StoreManager\ChargeBack.aspx" />
+    <Content Include="StoreManager\InventoryStatusReport.aspx" />
+    <Content Include="StoreManager\UpdateReorderLevelAndQuantity.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -364,6 +371,20 @@
     <Compile Include="DeptHead\Kyler Trying.aspx.designer.cs">
       <DependentUpon>Kyler Trying.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeptHead\ModifyCollectionPoint.aspx.cs">
+      <DependentUpon>ModifyCollectionPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeptHead\ModifyCollectionPoint.aspx.designer.cs">
+      <DependentUpon>ModifyCollectionPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeptStaff\ViewStationeryCatalogue.aspx.cs">
+      <DependentUpon>ViewStationeryCatalogue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeptStaff\ViewStationeryCatalogue.aspx.designer.cs">
+      <DependentUpon>ViewStationeryCatalogue.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -384,6 +405,41 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="StoreClerk\AnnualCatalogUpdate.aspx.cs">
+      <DependentUpon>AnnualCatalogUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoreClerk\AnnualCatalogUpdate.aspx.designer.cs">
+      <DependentUpon>AnnualCatalogUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StoreClerk\Department_CollectionPointList.aspx.cs">
+      <DependentUpon>Department_CollectionPointList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoreClerk\Department_CollectionPointList.aspx.designer.cs">
+      <DependentUpon>Department_CollectionPointList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StoreManager\ChargeBack.aspx.cs">
+      <DependentUpon>ChargeBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoreManager\ChargeBack.aspx.designer.cs">
+      <DependentUpon>ChargeBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StoreManager\InventoryStatusReport.aspx.cs">
+      <DependentUpon>InventoryStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoreManager\InventoryStatusReport.aspx.designer.cs">
+      <DependentUpon>InventoryStatusReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StoreManager\UpdateReorderLevelAndQuantity.aspx.cs">
+      <DependentUpon>UpdateReorderLevelAndQuantity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoreManager\UpdateReorderLevelAndQuantity.aspx.designer.cs">
+      <DependentUpon>UpdateReorderLevelAndQuantity.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StoreSup\StoreSupAssignDepartment.aspx.cs">
       <DependentUpon>StoreSupAssignDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -409,10 +465,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="DeptRep\" />
-    <Folder Include="DeptStaff\" />
     <Folder Include="Services\" />
-    <Folder Include="StoreClerk\" />
-    <Folder Include="StoreManager\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
