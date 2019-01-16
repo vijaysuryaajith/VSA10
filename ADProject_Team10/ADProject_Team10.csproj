@@ -180,7 +180,6 @@
     <Content Include="Default.aspx" />
     <Content Include="DeptHead\Kyler Trying.aspx" />
     <Content Include="DeptHead\ModifyCollectionPoint.aspx" />
-    <Content Include="DeptRep\test 5.aspx" />
     <Content Include="DeptStaff\ViewStationeryCatalogue.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -194,16 +193,12 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
-    <Content Include="StoreClerk\DisbursmentList.aspx" />
-    <Content Include="StoreClerk\RetrievalDetails.aspx" />
-    <Content Include="StoreClerk\RetrievalList.aspx" />
     <Content Include="StoreClerk\AnnualCatalogUpdate.aspx" />
     <Content Include="StoreClerk\Department_CollectionPointList.aspx" />
-    <Content Include="StoreClerk\WebForm1.aspx" />
+    <Content Include="StoreClerk\test 2.aspx" />
     <Content Include="StoreManager\ChargeBack.aspx" />
     <Content Include="StoreManager\InventoryStatusReport.aspx" />
     <Content Include="StoreManager\UpdateReorderLevelAndQuantity.aspx" />
-    <Content Include="testing\test 3.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -386,13 +381,6 @@
     <Compile Include="DeptHead\ModifyCollectionPoint.aspx.designer.cs">
       <DependentUpon>ModifyCollectionPoint.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DeptRep\test 5.aspx.cs">
-      <DependentUpon>test 5.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DeptRep\test 5.aspx.designer.cs">
-      <DependentUpon>test 5.aspx</DependentUpon>
-    </Compile>
     <Compile Include="DeptStaff\ViewStationeryCatalogue.aspx.cs">
       <DependentUpon>ViewStationeryCatalogue.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -424,25 +412,7 @@
     <Compile Include="Models\SupplierStationery.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\test.cs" />
-    <Compile Include="StoreClerk\DisbursmentList.aspx.cs">
-      <DependentUpon>DisbursmentList.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StoreClerk\DisbursmentList.aspx.designer.cs">
-      <DependentUpon>DisbursmentList.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StoreClerk\RetrievalDetails.aspx.cs">
-      <DependentUpon>RetrievalDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StoreClerk\RetrievalDetails.aspx.designer.cs">
-      <DependentUpon>RetrievalDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StoreClerk\RetrievalList.aspx.cs">
-      <DependentUpon>RetrievalList.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StoreClerk\RetrievalList.aspx.designer.cs">
-      <DependentUpon>RetrievalList.aspx</DependentUpon>
-    </Compile>
+    <Compile Include="Services\test 2.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -472,12 +442,12 @@
     <Compile Include="StoreClerk\Department_CollectionPointList.aspx.designer.cs">
       <DependentUpon>Department_CollectionPointList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="StoreClerk\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="StoreClerk\test 2.aspx.cs">
+      <DependentUpon>test 2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StoreClerk\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="StoreClerk\test 2.aspx.designer.cs">
+      <DependentUpon>test 2.aspx</DependentUpon>
     </Compile>
     <Compile Include="StoreManager\ChargeBack.aspx.cs">
       <DependentUpon>ChargeBack.aspx</DependentUpon>
@@ -507,13 +477,6 @@
     <Compile Include="StoreSup\StoreSupAssignDepartment.aspx.designer.cs">
       <DependentUpon>StoreSupAssignDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="testing\test 3.aspx.cs">
-      <DependentUpon>test 3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="testing\test 3.aspx.designer.cs">
-      <DependentUpon>test 3.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -531,6 +494,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="DeptRep\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
