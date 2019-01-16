@@ -180,6 +180,8 @@
     <Content Include="Default.aspx" />
     <Content Include="DeptHead\Kyler Trying.aspx" />
     <Content Include="DeptHead\ModifyCollectionPoint.aspx" />
+    <Content Include="DeptRep\test 5.aspx" />
+    <Content Include="DeptRep\test 6.aspx" />
     <Content Include="DeptStaff\ViewStationeryCatalogue.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -380,6 +382,20 @@
     </Compile>
     <Compile Include="DeptHead\ModifyCollectionPoint.aspx.designer.cs">
       <DependentUpon>ModifyCollectionPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeptRep\test 5.aspx.cs">
+      <DependentUpon>test 5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeptRep\test 5.aspx.designer.cs">
+      <DependentUpon>test 5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeptRep\test 6.aspx.cs">
+      <DependentUpon>test 6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeptRep\test 6.aspx.designer.cs">
+      <DependentUpon>test 6.aspx</DependentUpon>
     </Compile>
     <Compile Include="DeptStaff\ViewStationeryCatalogue.aspx.cs">
       <DependentUpon>ViewStationeryCatalogue.aspx</DependentUpon>
