@@ -4,8 +4,8 @@
     <p>Retrieval Date: <asp:Label ID="lblRetrievalDate" runat="server" Text="Date"></asp:Label></p>
     <p>Sort By:
         <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="248px">
-            <asp:ListItem Value="1">By Department</asp:ListItem>
-            <asp:ListItem Value="2">By Category</asp:ListItem>
+            <asp:ListItem Value="1">By Departmentfafwafwa</asp:ListItem>
+            <asp:ListItem Value="2">By Categoryfawfaw</asp:ListItem>
         </asp:RadioButtonList></p>
     <asp:GridView ID="gvRetrievalList" runat="server"></asp:GridView>
 </asp:Content>
